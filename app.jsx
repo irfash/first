@@ -4,7 +4,10 @@ const express = require("express");
 const app = express();
 
 app.get("/",(req,res)=>{
-    res.send("Hello World");
+    res.write("Writing code on codespaces");
+    res.write("Hello World");
+    res.end();
+    
 })
 
 
