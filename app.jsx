@@ -4,8 +4,8 @@ const express = require("express");
 const app = express();
 
 app.get("/",(req,res)=>{
-    res.write("Writing code on codespaces");
-    res.write("Hello World");
+    res.write("<h1>Writing code on codespaces</h1>");
+    res.write("<h2>Hello World</h2>");
     res.end();
     
 })
